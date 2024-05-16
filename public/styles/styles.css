@@ -1,0 +1,600 @@
+
+
+:root {
+   --blue: #063C5E;
+   --yellow:  #FCCF14;
+   --teal: #97caca;
+   --lightblue:#006B6B;
+   --lightgrey: lightgrey;
+}
+
+/* This area is for the 
+main background of the 
+entire site */
+body {
+    background-color: var(--blue);
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    font-size: 1.4em;
+    background-image: linear-gradient(#97caca, #006B6B);
+    font: 'Open Sans';
+
+}
+
+body h1 {
+    font-family: 'Fredericka the Great';
+}
+
+body h2 {
+    font-family: 'Fredericka the Great';
+}
+
+/* Beginning of navbar styling: */
+nav  {
+    background-color: var(--blue);
+    padding-left: 0.5%;  
+    color:white;
+    display:flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+nav ul * {
+    display: flex;
+    text-decoration: none;
+    padding: .45em;
+    display: inline-block;
+    font-family: 'Fredericka the Great';
+    
+}
+
+nav img {
+    width: 300px;
+}
+
+
+
+nav a {
+    color: white;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+nav a:active{
+    font-weight:bold;
+    color: var(--blue);
+    background-color:var(--yellow);
+}
+
+
+/* Main body content styling */
+.body-text /* This specific class is for the "complete comic collection section on the home page */{
+    display:flex;
+    display:contents;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align:center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.codesquad-comics {
+    display: flex;
+    flex-shrink:3;
+    flex-direction: column;
+    border: thick solid var(--blue);
+    background-color: white;
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.indexpage {
+    display:flex;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align:center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.indexpage ul {
+    list-style:none;
+}
+
+.indexpage h1 {
+    color:var(--blue);
+}
+
+.indexpage h2 {
+    color:var(--blue);
+}
+.loginpage{
+    display:flex;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align:center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.loginpage ul {
+    list-style:none;
+}
+
+.loginpage h1 {
+    color:var(--blue);
+}
+
+.loginpage h2 {
+    color:var(--blue);
+}
+
+.aboutpage{
+    display:flex;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.aboutpage ul {
+    list-style:none;
+}
+
+.aboutpage h1 {
+    color:var(--blue);
+}
+
+.aboutpage h2 {
+    color:var(--blue);
+}
+
+.adminpage{
+    display:flex;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align:center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+.adminpage ul {
+    list-style:none;
+}
+
+.adminpage h1 {
+    color:var(--blue);
+}
+
+.adminpage h2 {
+    color:var(--blue);
+}
+
+.createpage{
+    display:flex;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align:center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.createpage ul {
+    list-style:none;
+}
+
+.createpage h1 {
+    color:var(--blue);
+}
+
+.createpage h2 {
+    color:var(--blue);
+}
+.updatepage
+{
+    display:flex;
+    flex-shrink:3;
+    flex-direction:column;
+    text-align:center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: thick;
+    width: 35%;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.updatepage ul {
+    list-style:none;
+}
+
+.updatepage h1 {
+    color:var(--blue);
+}
+
+.updatepage h2 {
+    color:var(--blue);
+}
+.body-text h1 {
+    text-align: center;
+    color:#063C5E;
+}
+
+.body-text h2 {
+    text-align: center;
+    color:#063C5E
+}
+
+/* I set a class to size the images 
+in the index page */
+.Image-size {
+    width: 200px;
+}
+
+/* Footer styling beginning */
+footer { 
+    border-top-style: solid;
+    border-top-color: var(--yellow);
+    border-top-width: .2em;
+    background-color: var(--blue);
+    color: white;
+    font-family: 'Fredericka the Great'; 
+    
+}
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a {
+    color: white;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--yellow)var(--yellow);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer img {
+    width: 119px;
+}
+
+footer h3 {
+    Color: var(--yellow);
+
+}
+
+.display {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90%;
+    padding-left: 10%;
+    padding-right:10%
+    
+}
+
+.display div {
+    /* This is why the footer is horizontal */
+    display: inline-block;
+    position: static;
+}
+
+
+/* This is the styling for the One-piece card page  */
+.Card {
+    margin: auto;
+    width: 35%;  
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-color:#063C5E;
+    border: solid var(--yellow);
+    border-width: thick;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.TopHalf {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    border-color: var(--yellow);
+    color: var(--yellow);
+    text-transform: uppercase;
+}
+
+.display-more {
+    /* This styles the display-more button on the index page */
+    background-color:var(--yellow);
+    margin:auto;
+}
+/* Styling for all submit buttons */
+.submit {
+    margin-bottom: 30px;
+}
+
+.submit input[type=submit]{
+    background-color: var(--yellow);
+}
+
+/* styling fr the table in the admin page */
+.admin-table {
+    max-width: 50%;
+    margin: auto;
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+.admin-table th {
+    background-color: var(--lightgrey);
+}
+
+.admin-table td {
+    border: thin solid black;
+
+}
+#delete {
+    /* styling for all delete buttons */
+    background-color:var(--yellow);
+    color: var(--blue);
+    margin: .3em;
+}
+
+#edit {
+    /* styling for all edit buttons */
+    background-color:var(--blue);
+    color:white;
+    margin: .3em;
+}
+
+.admin-table tr:nth-child(even){ 
+    background-color:lightgrey
+}
+
+/* Styling for One-Piece Card (soon would be all cards) */
+.BottomHalf {
+    padding-left: 1em;
+    border-top: thin solid var(--yellow);
+    background-color: white;
+    overflow: hidden;
+}
+
+#one-piece-image {
+    width: 90%;
+    border: solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+span {
+    /* Styles the Title, author, 
+    publisher, genre etc of the Card pages */
+    text-decoration: underline;
+    color:#063C5E;
+    font-weight: bold;
+}
+
+/* This styles the email and password for the  login page.  */
+.login {
+    text-align:center;
+}
+
+/* HW5 (FE-5) to use flexbox. This is for the index page.  */
+
+.codesquad-comics p {
+    padding: .5em 1em 1em 1em;
+}
+
+.codesquad-comics h1 {
+    text-align:center;
+    color: var(--blue);
+    }
+
+.comics {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.comic-details {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    width: 150px;
+    margin:auto;
+    text-align:center;
+}
+
+.comic-details a {
+    color: var(--blue);
+    text-decoration: none;
+
+}
+
+.comic-details a:active {
+    color: var(--blue);
+    background-color: var(--yellow);
+    font-weight:bold;    
+}
+
+.comic-details a:visited {
+    color: #063C5E;    
+}
+
+.comic-details a:hover {
+    color:#006B6B; 
+}
+
+
+/* HW7 (FE-7) responsive design with media queries for different screen sizes.   */
+
+.hamburgerbutton {
+    background-color: transparent;
+    border-width: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+
+/* target tablets   */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        max-width: 100%;
+        
+        
+    }
+        nav ul.show{
+        display: flex;
+    }
+        .hamburgerbutton {
+        padding-right: .5em;
+        display:block;
+        color: white;
+        background-color:transparent;
+        cursor: pointer;
+        font-size: 30px;
+        line-height:70px;
+
+    }
+
+
+    footer * {
+        flex-direction: column;
+        max-width: 100%;  
+    }
+
+
+
+
+    
+}
+
+/* target mobile   */
+@media screen and (min-width: 769px) {
+    .hamburgerbutton{
+        display:none;
+    }
+    
+}
+
+
+/* target desktop   */
+@media screen and (min-width: 1024px) {
+    .hamburgerbutton{
+        display:none;
+    }
+    /* styling to get the card to display flexed.   */
+    .Card {
+        display:flex;
+        margin: auto;
+        width: 35%;  
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-color:#063C5E;
+        border: solid var(--yellow);
+        border-width: thick;
+        overflow: hidden;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .cardonmobile {
+        display:flex;
+    }
+    
+}
+
+
+

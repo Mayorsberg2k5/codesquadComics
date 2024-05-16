@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+    <title>Update Page</title>
+    <script src="https://kit.fontawesome.com/c9b31dcc73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="./index.html"> 
+            <img src="./public/images/CodeSquad-Comics-logo.png" alt="CodeSquad-Comics-logo">
+        </a>
+    <button class="hamburgerbutton" > 
+            <i class="fa fa-bars"></i>
+    </button>
+        <ul>
+            <li> <a href="./index.html">HOME</a> </li>
+            <li> <a href="./about.html">ABOUT</a> </li>
+            <li> <a href="./login.html">LOGIN</a> </li>
+        </ul>
+    </nav>
+
+    <div class="updatepage">
+        <div>     
+            <h1> 
+                UPDATE COMIC
+            </h1>
+        </div>
+
+        <div class="submit"> 
+            <form action="#">
+                <div> 
+                    <label for="Title">Title:</label>
+                    <input type="text" id="title" name="title" value="Title value stored in database" required><br>
+                </div> <br>
+
+                <div> 
+                    <label for="Author">Author:</label>
+                    <input type="text" id="Author" name="Author" value="Author value stored in database" required>
+                </div> <br>
+
+                <div> 
+                    <label for="Publisher">Publisher</label>
+                    <select name="Publisher" id="Publisher" form ="Publisher" required>
+                        <option value="BOOM! Box">BOOM! Box</option>
+                        <option value="Harry N. Abrams">Harry N. Abrams</option>
+                        <option value="Icon Books">Icon Books</option>
+                        <option value="Image Comics">Image Comics</option>
+                        <option value="Marvel">Marvel</option>
+                        <option value="Simon & Schuster">Simon & Schuster</option>
+                        <option value="Top Shelf Productions">Top Shelf Productions</option>
+                        <option value="VIZ Media LLC">VIZ Media LLC </option>
+                        <option value="Publisher Value" selected>Publisher value stored in database</option>
+                    </select>
+
+                </div> <br>
+
+                <div> 
+                    <label for="Genre">Genre:</label>
+                    <input type="text" id="Genre" name="Genre" value="Genre data stored in databse" required>
+                </div> <br>
+
+                <div> 
+                    <label for="Pages">Number of pages:</label>
+                    <input type="text" id="Pages" name="Pages" value="Pages stored in databse" required>
+                </div> <br>
+
+                <div> 
+                    <label for="Rating">Rating:</label>
+                    <input type="text" id="Rating" name="Rating" value="Rating stored in databse" required>
+                </div> <br>
+
+                <div> 
+                    <label for="Synopsis">Synopsis:</label>
+                    <input type="text" id="Synopsis" name="Synopsis" value="Synopsis value stored in database" required>
+                </div> <br>
+
+                <div> 
+                    <input type="Submit" value ="Submit">
+                </div>
+
+            </form>
+        </div>
+    </div>    
+</div>
+
+<footer> 
+    <div class="display">
+        <div>
+            <div class="visit"> 
+                <h3>
+                    VISIT US
+                </h3>
+
+                <ul>
+                    <li>CodeSquad Comics</li>
+                    <li>123 Dorchester Avenue</li>
+                    <li>Boston, MA 02124</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="link">
+                <h3>
+                    LINKS
+                </h3> 
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="follow">
+                <h3>
+                FOLLOW US
+                </h3> 
+
+                <ul>
+                    <li><a href="#" rel="noopener noreferrer" <i class="fa-brands fa-facebook"> Facebook</a></li>
+                    <li><a href="#" rel="noopener noreferrer" <i class="fa-brands fa-square-instagram"> Instagram</a></li>
+                    <li><a href="#" rel="noopener noreferrer" <i class="fa-brands fa-x-twitter"> Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="product">
+                <h3>
+                    A PRODUCT OF
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="http://codesquad.org/" target="_blank"> 
+                        <img src="./public/images/CodeSquad-logo-b.png" alt="CodeSquad-logo"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
